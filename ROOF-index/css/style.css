@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+/* 以下是头部样式 */
+.clear{ clear:both}
+.head{background:#fabb07; padding-top:10px;}
+.headMin{ width:1170px;height:60px; margin:0 auto; }
+.headMin p{ width:290px;height:40px;background: url(../img/img_phone.png) no-repeat; font:14px/40px "微软雅黑"; font-weight:bold; text-indent:36px; }
+.headMin p span{ font-size:24px;}
+.faceBook,.twitter{ width:40px; height:40px; display:inline-block;}
+.headMin_icon{ float:right; margin-top:-40px;}
+
+/* 以下是导航栏样式 */
+
+.navBar{width:1170px;height:92px; background:#292929; margin:0 auto;}
+h1{ float:left;}
+.nav{height:92px; float:right; font-size:0; text-align:center; }
+.nav li{ border-left:1px solid #000; display:inline-block;position:relative;}
+.nav li a{font:18px/92px "Arial Black"; font-weight:bold; padding: 0 18px;}
+.navBar ul li a{color:#FFF;text-decoration:none; display:block}
+.navBar ul li a:hover{ background:#333333; color:#f9bc07;}
+.submenu{position:absolute; z-index:5;}
+.submenu li{ width:252px; height:38px; display:block; background:#333333; color:#fff; text-align:left; font-size:0; border-bottom:2px dotted #686868;}
+li.bottomNone{border-bottom:0px ;}
+.submenu li a{ font:12px/38px "Arial"; white-space:nowrap; display:block; font-weight:bold}
+
+/* 以下是中间广告页样式 */
+
+.bannerBox{ width:1170px; height:418px; margin: 0 auto; position:relative; overflow:hidden;}
+.bannerBox ul{position:absolute; bottom:28px; right:28px; font-size:0;}
+.bannerBox ul li{width:18px; height:18px; background:#FFF; border-radius:17px; display:inline-block; margin:0 4px; cursor:pointer;}
+.longBanner{ width:3510px;font-size:0;}
+.preBG{ height:540px; background:#333333; margin-top:130px;}
+.pic1,.pic2,.pic3{ width:369px; height:207px; float:left; margin-right:31.5px;}
+.simg{ width:1170px;margin:0 auto; position: relative; top:-100px; }
+.pic1{ background:url(../img/simg1.jpg)}
+.pic2{ background:url(../img/simg2.jpg)}
+.pic3{ background:url(../img/simg3.jpg)}
+.textBox{ width:1170px;margin:0 auto; position:relative; top:-55px;}
+.textBox h2{ color:#FFF; font:20px/20px  "Arial Black"; margin-bottom:30px;}
+.textBox p{ width:566px; height:80px; color:#b0afb0; font:10px/24px	"Arial"; word-spacing:2px; float:left; margin-right:30px; margin-bottom:20px;}
+.textBox span{color:#f9bc09;}
+.textBox .p1{margin-right:8px;}
+.textBox ul{ width:400px; float:left; margin-top:10px;}
+.textBox li img{ margin-right:22px;vertical-align:middle}
+.textBox li {margin-bottom:22px; color:#FFF; font:12px/12px "Arial Black"; vertical-align:middle;}
+.readMore{ width:162px; height:50px; background:#fabb07; display:block; position:relative; top:-35px; text-decoration:none; color:#fff; text-align:center; font:14px/50px "Arial Black";}
+.ourService{ width:1170px; margin:0 auto; margin-top: 45px; font:12px/26px "Arial"; margin-bottom:54px; position:relative;}
+.ourService h2{ font:24px/24px "Arial Black"; margin-bottom:30px;}
+.ourServicePic{ width:270px; height:280px; float:left; margin-right:30px;}
+.ourServiceTxtBOX1{background: url(../img/photo1.jpg);}
+.ourServiceTxtBOX2{background: url(../img/photo2.jpg);}
+.ourServiceTxtBOX3{background: url(../img/photo3.jpg);}
+.ourServiceTxtBOX4{background: url(../img/photo4.jpg);}
+.ourServiceTxtBOX3,.ourServiceTxtBOX1,.ourServiceTxtBOX2,.ourServiceTxtBOX4{ width:270px; height:200px;margin-bottom:20px; position:relative; overflow:hidden;}
+.divNew{}
+.ourServiceTxt{width:234px; height:34px;position:absolute; bottom:-70px; background:rgba(0,0,0,0.75); padding:18px; font: 14px/14px "Arial Black";color:#f9ba08; cursor:pointer;}
+.marginNone{ margin-right:0;}
+.ourService img{ margin-bottom:18px;}
+.close{ position: absolute; width:20px; height:20px; background:#0F0 url(../img/close.png); top:0; right:0px; display:block; cursor: pointer}
+
+/* 以下是底部样式 */
+
+.footBox{width:1170px; height:115px; margin:0 auto; padding:55px 0;}
+.footPic{ width:300px; height:66px;float:left; margin-right:80px; vertical-align:middle;}
+.footPic img{ float:left; margin-right:20px; }
+.footPic p{ font:14px/26px "Arial Black"; margin:10px 0;}
+.footPic p span{ font-size:24px; font-family:"Arial Black"}
+.footPic a{color:#313434; font:14px/66px "Arial"; text-decoration:underline;}
+.footPic a:hover{ color:#F60;}
+.copyRgiht{ border-top:1px solid #999; width:1170px; height:99px; margin:0 auto;}
+.copyRgiht p{ margin-top:20px; font:12px/12px "Arial"; color:#333333;}
+
+/* 以下是返回顶部按钮 */
+.goTo{position:fixed;bottom:5%;left:90%; }
+.goTo a{ display:block;width:41px; height:62px; background:url(../img/gotoTop.png);}
